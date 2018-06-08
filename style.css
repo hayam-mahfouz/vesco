@@ -1,0 +1,295 @@
+header{
+  background-attachment: fixed;
+  background-image: url('img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-delay:.1s;
+  animation-duration:.5s;
+}
+.logo{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+
+}
+.home-content-box{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.home-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.home-content-box-inner h1{
+  animation-delay:.5s;
+  animation-duration:.5s;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+
+}
+.home-content-box-inner button{
+  background-color: transparent;
+  color: white;
+  animation-delay:1s;
+  animation-duration:.5s;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.home-content-box-inner button:hover{
+  background-color: white;
+  color: black;
+
+}
+
+.section-header,.section-work{
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.section-header-underline,.section-about-underline,.section-work-underline,.section-team-underline{
+  width: 30px;
+  height: 4px;
+  background-color:#34c6d3; 
+  margin: auto;
+}
+.service-item{
+  padding: 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+.service-item-icon{
+  color:#34c6d3;
+  text-align: center;
+  font-size: 40px;
+  float: left;
+  padding: 20px;
+  margin-right: 20px;
+}
+.service-item-icon :hover{
+  background-color:#34c6d3;
+  color: white; 
+}
+.service-item-title,.about-us-title{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.service-item-desc,.about-us-desc{
+  color: gray;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.about-content-box-outer{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.about-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+.about-us-title{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.about-us-desc{
+  margin-left: 20px;
+}
+.section-about-underline,.about-us button{
+  margin-left: 20px;
+
+}
+.about-us button,.pricing-btn button{
+
+  color:#34c6d3;
+  border: 1px solid #34c6d3;
+  background-color: transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.about-us button:hover{
+  color:white;
+  border: 1px solid #34c6d3;
+  background-color:#34c6d3 ;
+
+}
+.pricing-btn button:hover{
+  color:white;
+  border: 1px solid #34c6d3;
+  background-color:#34c6d3 ;
+
+}
+.about-bg{
+  width: 60%;
+  float: right;
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+  background-image: url('img/about-bg.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.card{
+  overflow: hidden;
+}
+.card-img-top{
+  transition:transform .5s ease;
+}
+
+.card-img-top:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.team-member{
+  margin-right: 30px;
+}
+.member-name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px;
+
+}
+.member-postion{
+  color:#34c6d3;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+}
+svg{
+  margin-left: 13px;
+  font-size: 15px;
+}
+.test{
+  background-image: url('img/test-bg.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.testimonial img{
+  
+  border-radius: 120px;
+  max-width: 120px;
+
+}
+blockquote{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.pricing-box {
+  border: 3px solid #34c6d3;
+  padding: 30px 0;
+  margin: 40px 0;
+}
+h4.pricing-title{
+  background-color:#34c6d3;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block;
+  padding: 7px 15px; 
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+}
+h3.pricing-value{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h3.pricing-value sup{
+  font-weight: normal;
+  font-size: 30px;
+  vertical-align: super;
+
+}
+ul.pricing-spec{
+  list-style: none;
+  color: gray;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.box-2{
+  background-color: #34c6d3;
+}
+.box-2 h4.pricing-title{
+  background-color: white;
+  color: #34c6d3;
+}
+.box-2 h3.pricing-value{
+  color: white;
+}
+.box-2 ul.pricing-spec{
+  color: white;
+}
+.box-2 button{
+  color: white;
+  border:1px solid white;
+}
+
+.state-item{
+  padding: 100px 0;
+}
+.state-item svg{
+  color: #34c6d3;
+  font-size: 50px;
+}
+.state-item h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+.state-item p{
+  font-size:12px;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+.client{
+  font-size: 50px;
+
+}
+
+.contact-us{
+  background-color: #201e1e;
+}
+.contact-us h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white; 
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.contact-us p,.contact-us span{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+footer{
+  background-color:black;
+  padding-top:20px; 
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+footer span{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+footer p{
+  font-weight: normal;
+}
+
+.section-work{
+  visibility: hidden;
+}
